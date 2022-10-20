@@ -1,4 +1,23 @@
-.container{
+body{
     text-align: center;
     margin:auto;
+    background-color: red;
+}
+
+/* 
+Below is what I used to accomplish the task so that whenever the resolution's 
+width is less than 600px the background turns yellow
+And it is the opposite when the resolution's width is greater than 600 the back 
+gorund coor turn blue
+ */
+
+@media screen and (max-width:599px) {
+    body{
+        background-color: yellow;
+    }
+}
+@media screen and (min-width:601px){
+    body{
+        background-color: lightskyblue;
+    }
 }
