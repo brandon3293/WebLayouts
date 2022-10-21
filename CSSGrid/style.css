@@ -23,11 +23,11 @@
     display: grid;
     grid-gap:5px;
     /* Produces a 6 by 2 grid */
-    /* grid-template-columns:repeat(2, 1fr); */
+    grid-template-columns:repeat(2, 1fr);
     /* Produces a 2 by 6 grid */
     /* grid-template-columns:repeat(6, 1fr); */
     /* Produces a 3 by 4 grid */
-    grid-template-columns:repeat(4, 1fr);
+    /* grid-template-columns:repeat(4, 1fr); */
     /* Changes the size of the second row */
     grid-template-rows: 1fr 2fr;
 }
