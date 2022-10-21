@@ -1,0 +1,33 @@
+/* ids */
+#LM{background-color: rgb(43, 68, 148);}
+#n1{background-color:rgb(110, 5, 5);}
+#NJ{background-color: rgb(9, 92, 9);}
+#n2{background-color:purple;}
+#MO{background-color: black;}
+#n3{background-color:blue;}
+#CR{background-color: rgb(151, 3, 3);}
+#n4{background-color:rgb(118, 72, 156);}
+#HS{background-color: rgb(57, 82, 75);}
+#n5{background-color:rgb(59, 175, 111);}
+#GP{background-color: rgb(155, 155, 40);}
+#n6{background-color:red;}
+
+
+
+.cell{
+    color:white;
+    text-align: center;
+}
+
+#gridA{
+    display: grid;
+    grid-gap:5px;
+    /* Produces a 6 by 2 grid */
+    /* grid-template-columns:repeat(2, 1fr); */
+    /* Produces a 2 by 6 grid */
+    /* grid-template-columns:repeat(6, 1fr); */
+    /* Produces a 3 by 4 grid */
+    grid-template-columns:repeat(4, 1fr);
+    /* Changes the size of the second row */
+    grid-template-rows: 1fr 2fr;
+}
