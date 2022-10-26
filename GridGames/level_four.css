@@ -6,25 +6,25 @@
 }
 
 #navbar {
-  grid-column-start: span 5;
+  grid-column: span 5;
 }
 
 #sidebar {
   writing-mode: vertical-rl;
  
-  grid-row-end: span 2;
+  grid-row: span 2;
   
 }
 
 #title {
-  grid-column-start: span 4;
+  grid-column: span 4;
 }
 
 
 #content {
-  grid-column-start: span 4;
+  grid-column: span 4;
 }
 
 #footer {
-  grid-column-start: span 5;
+  grid-column: span 5;
 }

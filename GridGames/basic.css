@@ -19,7 +19,7 @@ body {
   background-color: #96ceb4;
 }
 
-.container > div:nth-child(2n) {
+.container.container > div:nth-child(2n) {
   background-color: #ff6f69;
 }
 
